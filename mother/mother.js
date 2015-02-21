@@ -6,6 +6,11 @@ exports.action = function(data, next){
   var cookie_Tp = data.cookieTp;
   var cookie_Bat = data.cookieBat;
   var type = data.type;
+  
+  if (!config.token){
+    next({'tts' : 'Paramètre token invalide'});
+    return;
+  }
 
  // les uid des differents cookies pour le feels Température.
 

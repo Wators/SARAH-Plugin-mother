@@ -1,0 +1,18 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleMother" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleMother" scope="public">
+    <example>Sarah appel la démo</example>
+    <tag>out.action=new Object(); </tag>
+
+    <item>Sarah</item>
+
+    <one-of>
+      <item>Quelle est la température dans la chambre des enfants<tag>out.action.cookieTp=1;out.action.type=1</tag></item>
+      <item>statut capteur dans la chambre des enfants<tag>out.action.cookieBat=1;out.action.type=2</tag></item>
+      <item>Quelle est la température dans la cuisine<tag>out.action.cookieTp=4;out.action.type=1</tag></item>
+      <item>Quelle est la température dans la chambre parentale<tag>out.action.cookieTp=3;out.action.type=1</tag></item>
+      <item>ensemble des nodes<tag>out.actions.type="nodes/"</tag>out.action.type=0</item>
+    </one-of>
+
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/mother";</tag>
+  </rule> 
+</grammar>

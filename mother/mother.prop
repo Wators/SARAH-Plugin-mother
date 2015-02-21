@@ -1,0 +1,9 @@
+{
+  	"modules" : { 
+    	"mother"  : {
+      		"description": "Demo de requête HTTP mother",
+      		"version"    : "1.0",
+      		"token"     : "*************************"
+    }
+  }
+}

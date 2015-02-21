@@ -1,8 +1,8 @@
-#name .portlet-header,
-#name .portlet-footer {
+#mother .portlet-header,
+#mother .portlet-footer {
   background-color: #999999;
 }
-#name .portlet-body {
+#mother .portlet-body {
   color: #FFF;
   background: #999999;
 }

@@ -82,11 +82,11 @@ exports.action = function(data, next){
           }else
           if (type == 2){
             volt = json.objects[0].data.levelMillivolt
-            if (volt > 3000){volt = '100 %'}
-              else if (volt > 3000 & volt < 2000) {volt = '85 %'}
-                else if (volt > 2000 & volt < 1500) {volt = '65 %'}
+            if (volt >= 2950) {volt = '100 % Batery is full'}
+              else if (volt >= 2000) {volt = '85 %'}
+                else if (volt > 1500) {volt = '65 %'}
                   else if (volt = 1500) {volt = '50 %'}
-                    else if (volt > 1500 & volt < 500) {volt = '20 %'} 
+                    else if (volt > 500) {volt = '20 %'} 
           }
        }
 

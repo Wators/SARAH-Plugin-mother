@@ -6,11 +6,26 @@
     <item>Sarah</item>
 
     <one-of>
-      <item>Quelle est la température dans la chambre des enfants<tag>out.action.cookieTp=1;out.action.type=1</tag></item>
-      <item>statut capteur dans la chambre des enfants<tag>out.action.cookieBat=1;out.action.type=2</tag></item>
-      <item>Quelle est la température dans la cuisine<tag>out.action.cookieTp=4;out.action.type=1</tag></item>
-      <item>Quelle est la température dans la chambre parentale<tag>out.action.cookieTp=3;out.action.type=1</tag></item>
-      <item>ensemble des nodes<tag>out.actions.type="nodes/"</tag>out.action.type=0</item>
+      <!-- # Node #-->
+
+      <item>ensemble des nodes<tag>out.actions.type="0"</tag></item>
+
+      <!-- # Cookies #-->
+      <!-- # well leche #-->
+      <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=1;out.action.cookieTp=1</tag></item>
+      <item>statut capteur dans la chambre des enfants<tag>out.action.type=2;out.action.cookieBat=1</tag></item>
+
+      <!-- # well leche #-->
+      <item>Quelle est la température du capteur 2<tag>out.action.type=1;out.action.cookieTp=2</tag></item>
+      <item>statut capteur 2<tag>out.action.type=2;out.action.cookieBat=2</tag></item>
+
+      <!-- # well leche #-->
+      <item>Quelle est la température dans la chambre parentale<tag>out.action.type=1;out.action.cookieTp=3</tag></item>
+      <item>statut capteur dans la chambre parentale<tag>out.action.type=2;out.action.cookieBat=3</tag></item>
+
+      <!-- # well leche #-->
+      <item>Quelle est la température dans la cuisine<tag>out.action.type=1;out.action.cookieTp=4</tag></item>
+      <item>statut capteur dans la cuisine<tag>out.action.type=2;out.action.cookieBat=4</tag></item>
     </one-of>
 
     <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/mother";</tag>

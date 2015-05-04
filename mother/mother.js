@@ -47,11 +47,6 @@ exports.action = function(data, next){
   var cookie_Pre = data.cookiePre;
   var cookie_Ale = data.cookieAle;
   var type = data.type;
-  
-  if (!config.token){
-    next({'tts' : 'Paramètre token invalide'});
-    return;
-  }
 
   if (!config.token){
     next({'tts' : 'Paramètre token invalide'});
@@ -221,18 +216,6 @@ exports.action = function(data, next){
               degree = json.objects[0].data.centidegreeCelsius
            // Je sais pas cette valeur ? 1809
            //degree = degree / 100
-<<<<<<< Updated upstream
-           degree = Math.round((degree / 100)*10)/10
-          }else
-          if (type == 2){
-            volt = json.objects[0].data.levelMillivolt
-            if (volt >= 2950) {volt = '100 % Batery is full'}
-              else if (volt >= 2000) {volt = '85 %'}
-                else if (volt > 1500) {volt = '65 %'}
-                  else if (volt = 1500) {volt = '50 %'}
-                    else if (volt > 500) {volt = '20 %'} 
-          }
-=======
               degree = Math.round((degree / 100)*10)/10
              }else
                if (type == 2){
@@ -314,7 +297,6 @@ exports.action = function(data, next){
                         fs.writeFileSync(fileXML, xml, 'utf8');
                   }
               } 
->>>>>>> Stashed changes
        }
 
        // 3. On pourrait aussi se casser en vocalisant le résutlat

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #mother .portlet-header,
 #mother .portlet-footer {
   background-color: #999999;
@@ -6,3 +7,13 @@
   color: #FFF;
   background: #999999;
 }
+=======
+#mother .portlet-header,
+#mother .portlet-footer {
+  background-color: rgba(144, 186, 251, 0);
+}
+#mother .portlet-body {
+  color: #FFF;
+  background: rgba(144, 186, 251, 0);
+}
+>>>>>>> Stashed changes

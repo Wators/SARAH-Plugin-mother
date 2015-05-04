@@ -1,9 +1,33 @@
 {
-  	"modules" : { 
-    	"mother"  : {
-      		"description": "Demo de requête HTTP mother",
-      		"version"    : "1.0",
-      		"token"     : "*************************"
+  "modules" : { 
+    "mother"  : {
+      "description": "Demo de requête HTTP mother",
+      "version"    : "1.0",
+      "token"     : "",
+      "cookie_id1" : "",
+      "cookie_id2" : "",
+      "cookie_id3" : "",
+      "cookie_id4" : "",
+      "cookie_id1_MOT" : "",
+      "cookie_id1_PRE" : "",
+      "cookie_id1_BAT" : "",
+      "cookie_id1_ALE" : "",
+      "cookie_id1_TP" : "",
+      "cookie_id2_MOT" : "",
+      "cookie_id2_PRE" : "",
+      "cookie_id2_BAT" : "",
+      "cookie_id2_ALE" : "",
+      "cookie_id2_TP" : "",
+      "cookie_id3_MOT" : "",
+      "cookie_id3_PRE" : "",
+      "cookie_id3_BAT" : "",
+      "cookie_id3_ALE" : "",
+      "cookie_id3_TP" : "",
+      "cookie_id4_MOT" : "",
+      "cookie_id4_PRE" : "",
+      "cookie_id4_BAT" : "",
+      "cookie_id4_ALE" : "",
+      "cookie_id4_TP" : ""
     }
   }
 }

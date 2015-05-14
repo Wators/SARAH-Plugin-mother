@@ -1,0 +1,9 @@
+{
+  "modules" : { 
+    "mother"  : {
+      "description": "Ce plugin permet d'intérroger Mother sur ses Cookies",
+      "version"    : "2.0",
+      "token"     : ""
+    }
+  }
+}

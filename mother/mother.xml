@@ -19,36 +19,36 @@
       <item>Quelle est la température du cookie un<tag>out.action.type=1;out.action.cookieTp=1</tag></item>
       <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=1;out.action.cookieTp=1</tag></item>
       <item>statut capteur dans la chambre des enfants<tag>out.action.type=2;out.action.cookieBat=1</tag></item>
-      <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=3;out.action.cookieMot=1</tag></item>
-      <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=4;out.action.cookiePre=1</tag></item>
-      <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=5;out.action.cookieAle=1</tag></item>
+      <item>Mouvement dans la chambre des enfants<tag>out.action.type=3;out.action.cookieMot=1</tag></item>
+      <item>Présence dans la chambre des enfants<tag>out.action.type=4;out.action.cookiePre=1</tag></item>
+      <item>Alerte dans la chambre des enfants<tag>out.action.type=5;out.action.cookieAle=1</tag></item>
 
       <!-- # subtle water #-->
 
       <item>test cookie deux<tag>out.action.type=6;out.action.cookieid=2</tag></item>
       <item>Quelle est la température du capteur 2<tag>out.action.type=1;out.action.cookieTp=2</tag></item>
-      <item>statut capteur 2<tag>out.action.type=2;out.action.cookieBat=2</tag></item>
-      <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=3;out.action.cookieMot=2</tag></item>
-      <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=4;out.action.cookiePre=2</tag></item>
-      <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=5;out.action.cookieAle=2</tag></item>
+      <item>statut batterie capteur 2<tag>out.action.type=2;out.action.cookieBat=2</tag></item>
+      <item>statut mouvement capteur 2<tag>out.action.type=3;out.action.cookieMot=2</tag></item>
+      <item>statut présence capteur 2<tag>out.action.type=4;out.action.cookiePre=2</tag></item>
+      <item>statut alerte capteur 2<tag>out.action.type=5;out.action.cookieAle=2</tag></item>
 
       <!-- # happy hope #-->
 
       <item>test cookie trois<tag>out.action.type=6;out.action.cookieid=3</tag></item>
       <item>Quelle est la température dans la chambre parentale<tag>out.action.type=1;out.action.cookieTp=3</tag></item>
       <item>statut capteur dans la chambre parentale<tag>out.action.type=2;out.action.cookieBat=3</tag></item>
-      <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=3;out.action.cookieMot=3</tag></item>
-      <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=4;out.action.cookiePre=3</tag></item>
-      <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=5;out.action.cookieAle=3</tag></item>
+      <item>statut mouvement capteur 3<tag>out.action.type=3;out.action.cookieMot=3</tag></item>
+      <item>statut présence capteur 3<tag>out.action.type=4;out.action.cookiePre=3</tag></item>
+      <item>statut alerte capteur 3<tag>out.action.type=5;out.action.cookieAle=3</tag></item>
 
       <!-- #perfect carnival #-->
 
       <item>test cookie quatre<tag>out.action.type=6;out.action.cookieid=4</tag></item>
       <item>Quelle est la température dans la cuisine<tag>out.action.type=1;out.action.cookieTp=4</tag></item>
       <item>statut capteur dans la cuisine<tag>out.action.type=2;out.action.cookieBat=4</tag></item>
-      <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=3;out.action.cookieMot=4</tag></item>
-      <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=4;out.action.cookiePre=4</tag></item>
-      <item>Quelle est la température dans la chambre des enfants<tag>out.action.type=5;out.action.cookieAle=4</tag></item>
+      <item>statut mouvement capteur 4<tag>out.action.type=3;out.action.cookieMot=4</tag></item>
+      <item>statut présence capteur 4<tag>out.action.type=4;out.action.cookiePre=4</tag></item>
+      <item>statut alerte capteur 4<tag>out.action.type=5;out.action.cookieAle=4</tag></item>
 
       
     </one-of>

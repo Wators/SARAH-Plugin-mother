@@ -25,6 +25,220 @@
 
 <!--Version-->
 <div class="tab-pane active" id="plugin-version">
+<h4>Version 2</h4>
+<pre>
+[X] Le mother.prop ne sert plus qu'à renseigner la clé API. Utilisation d'un ConfigMotherperso.prop pour les tokens
+des Cookies. 
+La configuration devient enfin Automatique.</br>
+[X] Le ConfigMotherperso est aussi renseigné sur l'activation ou non des fonctions d'un cookie.
+Exemple : si la fonction Température n'est pas activé. Quand Sarah sera interrogée sur l'état de la
+température, elle vous dira que "Cette option est désactivée".
+</pre>
+<h4>Version 1.1</h4>
+<pre>
+[X] Il est possible de configurer le Prop de façon semi-auto.
+</pre>
+<h4>Version 1.0</h4>
+<pre>
+[X] Il est possible de voir un events par cookies.</br>
+[x] Sarah vocalise les résultats des events d'un Cookie à la demande : </br>      
+Exemple : "quelle est la température du salon?" Sarah : "Il fait 19.2 °".    
+Exemple : "quel est l'état de la batterie du cookie salon?" Sarah : "100 %".
+</pre>
+
+</div>
+
+<!--Documentation-->
+<div class="tab-pane" id="plugin-doc">
+<h4>Documentation</h4>
+
+
+</div>
+
+<!--Configuration-->
+<div class="tab-pane" id="plugin-config">
+<h4>Configuration</h4>
+<h4>Première partie</h4>
+
+Le plugin est basé sur l'API de Sen.se. Pour pouvoir l'utiliser, il vous faut un compte chez Sen.se. (https://sen.se/store/mother/).</br></br>
+<img src="/mother/www/images/login.png" width="800" left:90px/></br></br>
+Une fois connecté sur votre compte, cliquez sur le nom avec la petite icone de personne.</br></br>
+Sélectionnez "Développeurs".<img src="/mother/www/images/choix.png" width="600"/></br></br>
+Sur la nouvelle page, cliquez sur "Clé API" et là, vous devriez avoir votre Token.</br></br><img src="/mother/www/images/token.png" width="600"/></br></br>
+Ensuite, il faut la mettre dans la partie "configurer l'extention" du portlet. Enregistrer</br>
+
+<h4>Deuxième partie</h4>
+
+Cette partie est devenue Automatique par simple clic sur les liens ci-dessous.</br>
+
+Il faut cliquer dans l'ordre.</br>
+Le premier lien renseigne l'ID des Cookies</br><a href="/sarah/mother?type=0" class="btn btn-primary" onclick="window.open(this.href); return false;">Cookies</a></br></br>
+Sarah doit parler et vous devez voir sur la console que "Le ConfigMotherperso.prop a été mis à jour avec les id cookies".</br>
+
+Ensuite, vous pouvez cliquez sur les 4 liens du dessous.
+<a href="/sarah/mother?type=6&cookieid=1" class="btn btn-primary" onclick="window.open(this.href); return false;">Cookie 1</a>
+<a href="/sarah/mother?type=6&cookieid=2" class="btn btn-primary" onclick="window.open(this.href); return false;">Cookie 2</a>
+<a href="/sarah/mother?type=6&cookieid=3" class="btn btn-primary" onclick="window.open(this.href); return false;">Cookie 3</a>
+<a href="/sarah/mother?type=6&cookieid=4" class="btn btn-primary" onclick="window.open(this.href); return false;">Cookie 4</a></br></br>
+
+Pour chaque clic, sarah doit parler et vous devez voir sur la console que "Le ConfigMotherperso.prop a été mis à jour avec les feeds du Cookie" suivie du numéro du cookie.</br>
+
+Maintenant testez en diasnt "Sarah quelle est la température du cookie un".</br>
+
+</div>
+
+<!--Info et Actions-->
+<div class="tab-pane" id="plugin-evens">
+
+  <h4>Nodes et Feeds</h4>
+
+<ul>
+<table>
+
+  <thead>
+    <tr>
+     <td></td>
+     <td>Label</td>
+     <td>UID</td>
+     <td>Actions</td>
+    </tr>
+  </thead>
+
+  <tfoot>
+    <tr>
+     <td></td>
+     <td>Label</td>
+     <td>UID</td>
+     <td>Actions</td>
+    </tr>
+  </tfoot>
+
+  <tbody>
+    <tr>
+     <th>1</th>
+     <th>Well Leche</th>
+     <th></th>
+     <th></th>
+    </tr>
+   </tbody>
+
+   <tbody>
+    <tr>
+     <td>1.1</td>
+     <td>&nbsp; Température</td>
+     <td>tOEW54Y54xlHSRkz8ge3I40cnV6SQAE9 &nbsp;</td>
+     <td><a href="/sarah/mother?type=1&cookieTp=1" class="btn btn-primary" onclick="window.open(this.href); return false;">Events</a></td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+     <td>1.2</td>
+     <td>&nbsp; Batterie</td>
+     <td>RnWS18qGAThKe8Mn3RUdl2MZ24gYOtu3 &nbsp;</td>
+     <td><a href="/sarah/mother?type=2&cookieBat=1" class="btn btn-primary" onclick="window.open(this.href); return false;">Events</a></td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+     <th>2</th>
+     <th>Well Leche</th>
+     <th></th>
+     <th></th>
+    </tr>
+   </tbody>
+
+   <tbody>
+    <tr>
+     <td>2.1</td>
+     <td>&nbsp; Température</td>
+     <td>D1ZqqXlCG4CicqKKkilkYzAKWkDCwwtE &nbsp;</td>
+     <td><a href="/sarah/mother?type=1&cookieTp=2" class="btn btn-primary" onclick="window.open(this.href); return false;">Events</a></td>
+    </tr>
+  </tbody>
+
+    <tbody>
+    <tr>
+     <th>3</th>
+     <th>Well Leche</th>
+     <th></th>
+     <th></th>
+    </tr>
+   </tbody>
+
+   <tbody>
+    <tr>
+     <td>3.1</td>
+     <td>&nbsp; Température </td>
+     <td> wHWg4YaQkckiVTEtjlIQh0rLFduJSUKJ &nbsp;</td>
+     <td><a href="/sarah/mother?type=1&cookieTp=3" class="btn btn-primary" onclick="window.open(this.href); return false;">Events</a></td>
+    </tr>
+  </tbody>
+
+    <tbody>
+    <tr>
+     <th>4</th>
+     <th>Well Leche</th>
+     <th></th>
+     <th></th>
+    </tr>
+   </tbody>
+
+   <tbody>
+    <tr>
+     <td>4.1</td>
+     <td>&nbsp; Température &nbsp;</td>
+     <td> GwOsVl4cJOVB3uAlrfAnwJbyEGeW4KSC &nbsp;</td>
+     <td><a href="/sarah/mother?type=1&cookieTp=4" class="btn btn-primary" onclick="window.open(this.href); return false;">Events</a></td>
+    </tr>
+  </tbody>
+
+</table>
+<p></p>
+
+</ul>
+
+</div>
+ 
+<!--Aide-->
+<div class="tab-pane" id="plugin-errors"> 
+
+<h4>Aide</h4>
+
+<p>Si vous avez besoin d'aide, il faut passer par la communauté.</p>
+
+<%- layout('/layout/modal.ejs') -%>
+
+<p>
+  Le plugin pour interagir avec Mother et ses Cookies de Sen.se  
+</p>
+
+<div class="alert alert-info" role="alert">
+  <h4>Auteur</h4>
+  <p>Pottier Frédéric. Avec l'aide inestimable de J.P. ENCAUSSE.</p>
+</div>
+
+<!-- Navigation -->
+<ul class="nav nav-tabs" role="tablist">
+  <li class="active"><a href="#plugin-version" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-home"></span></a></li>
+   <li><a href="#plugin-doc" role="tab" data-toggle="tab"><%- i18n('Documentation') -%></a></li>
+   <li><a href="#plugin-config" role="tab" data-toggle="tab"><%- i18n('Configuration') -%></a></li>
+    <li ><a href="#plugin-evens" role="tab" data-toggle="tab"><%- i18n('Evens') -%></a></li>
+    <li ><a href="#plugin-errors" role="tab" data-toggle="tab"><%- i18n('Aides') -%></a></li>
+    </ul> 
+  </li>
+
+</ul>
+
+<div class="tab-content">
+
+<!--Version-->
+<div class="tab-pane active" id="plugin-version">
+<h4>Version 2</h4>
+<pre>
+[X] Le mother.prop ne sert plus qu'à renseigner la clé API. Utilisation d'un ConfigMotherperso.prop pour les tokens des Cookies.</br> La configuration devient enfin Automatique.
+</pre>
 <h4>Version 1.1</h4>
 <pre>
 [X] Possibilé de configurer le Prop de façon semi-auto.
@@ -54,21 +268,15 @@ Le plugin est basé sur l'API de Sen.se. Pour pouvoir l'utiliser, il vous faut u
 Une fois connecté sur votre compte, cliquez sur le nom avec la petite icone de personne.</br></br>
 Sélectionnez "Développeurs".<img src="/mother/www/images/choix.png" width="600"/></br></br>
 Sur la nouvelle page, cliquez sur "Clé API" et là, vous devriez avoir votre Token.</br></br><img src="/mother/www/images/token.png" width="600"/></br></br>
-Ensuite, il faut la mettre dans la partie "configurer l'extention" du portlet. Enregistrer et redémarrer le serveur Node de Sarah.</br>
+Ensuite, il faut la mettre dans la partie "configurer l'extention" du portlet. Enregistrer</br>
 
 <h4>Deuxième partie</h4>
 
-Cette partie est la partie Semi-Auto de la configuration.</br>
-Il y a 2 méthodes : </br>
-- Soit rentrer un par un les infos dans la partie "configurer l'extention" du portlet que vous trouverez sur le sur le site de Sen.se. Mais c'est un peu long.</br>
-- Soit il faut recopier le mother.prop dans le custom.prop (sarah/server/app/data/custom.prop)</br></br>
+Cette partie est devenue Automatique par simple clic sur les liens ci-dessous.</br>
 
-Je vais expliquer comme utiliser la second méthode.</br>
-Tout d'abord, il faut utiliser "sublime text". Ouvrez le mother.prop et le custom.prop.</br></br>
-Puis cliquez sur ce lien.</br><a href="/sarah/mother?type=0" class="btn btn-primary" onclick="window.open(this.href); return false;">Cookies</a></br></br>
-Sarah doit parler et vous devez voir sur la console que le prop a été mis à jour. Il faut fermer la console.</br>
-Dans sublime text il faut sélectionner les 4 cookie_id en dessous de "token" et les copier dans le custom.prop.</br>
-Puis redemarrer le server de Sarah.</br>
+Il faut cliquer dans l'ordre.</br>
+Le premier lien renseigne l'ID des Cookies</br><a href="/sarah/mother?type=0" class="btn btn-primary" onclick="window.open(this.href); return false;">Cookies</a></br></br>
+Sarah doit parler et vous devez voir sur la console que "Le ConfigMotherperso.prop a été mis à jour avec les id cookies".</br>
 
 Ensuite, vous pouvez cliquez sur les 4 liens du dessous.
 <a href="/sarah/mother?type=6&cookieid=1" class="btn btn-primary" onclick="window.open(this.href); return false;">Cookie 1</a>
@@ -76,10 +284,7 @@ Ensuite, vous pouvez cliquez sur les 4 liens du dessous.
 <a href="/sarah/mother?type=6&cookieid=3" class="btn btn-primary" onclick="window.open(this.href); return false;">Cookie 3</a>
 <a href="/sarah/mother?type=6&cookieid=4" class="btn btn-primary" onclick="window.open(this.href); return false;">Cookie 4</a></br></br>
 
-Pour chaque clic, sarah doit parler et vous devez voir sur la console que le prop de mother a été mis à jour.</br>
-Fermer la console.</br>
-Dans sublime text, il faut sélectioner les 20 cookie_id_**, sous le cookie_id4 et le coller dans le custom.prop.</br>
-Puis redamerrer le server de Sarah.</br>
+Pour chaque clic, sarah doit parler et vous devez voir sur la console que "Le ConfigMotherperso.prop a été mis à jour avec les feeds du Cookie" suivie du numéro du cookie.</br>
 
 Maintenant testez en diasnt "Sarah quelle est la température du cookie un".</br>
 

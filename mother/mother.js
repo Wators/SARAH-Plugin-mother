@@ -360,11 +360,11 @@ exports.action = function(data, next){
                                     + '"cookie_id2_PRE" : "'+json.publishes[1].uid+'",\n    '
                                     + '"used_id2_2" : "'+json.publishes[1].used+'",\n    '
                                     + '"cookie_id2_BAT" : "'+json.publishes[2].uid+'",\n    '
-                                    + '"used_id3_3" : "'+json.publishes[2].used+'",\n    '                                    
+                                    + '"used_id2_3" : "'+json.publishes[2].used+'",\n    '                                    
                                     + '"cookie_id2_ALE" : "'+json.publishes[3].uid+'",\n    '
-                                    + '"used_id4_4" : "'+json.publishes[3].used+'",\n    '                                    
+                                    + '"used_id2_4" : "'+json.publishes[3].used+'",\n    '                                    
                                     + '"cookie_id2_TP" : "'+json.publishes[4].uid+'",\n    '
-                                    + '"used_id5_5" : "'+json.publishes[4].used+'",\n    ';
+                                    + '"used_id2_5" : "'+json.publishes[4].used+'",\n    ';
 
                                     console.log('Mise à jour OK');
 
